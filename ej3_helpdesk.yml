@@ -1,0 +1,4 @@
+- name: instalar {{ paquete }}
+  yum:
+    name: {{ paquete }}
+    state: latest
